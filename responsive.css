@@ -1,0 +1,122 @@
+@media screen and (max-width:768px) {
+    .carousel-indicators [data-bs-target] {
+    display: none;
+}
+.bg-banner{
+    color: rgba(0, 0, 0, .9); 
+   background-color: rgb(43, 80, 149);
+}
+.buy-now{
+    background:orangered ;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -20px;
+  }
+  .get-quote{
+    background:orangered ;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -40px;
+  }
+  .number{
+    display: none;
+  }
+  .newsemail{
+display: none;
+  }
+  .newsbutton {
+    display: none;
+  }
+  .newsletter-img{
+    display: none;
+  }
+  .subscribe{
+    display: none;
+  }
+  .we-text{
+    font-size: 25px;
+    
+  }
+  .shop_now {
+    margin-top: -4px;
+}
+.slider-btn{
+    padding: 14px 25px;
+}
+.card-title{
+    display: none;
+}
+.award img {
+    width: 100%;
+    padding: 40px;
+    background-size: cover;
+}
+.Our-award{
+    margin-top: 75%;
+}
+.wel-bg img {
+display:none
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .buy-now{
+        background:orangered ;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: -20px;
+      }
+      .get-quote{
+        background:orangered ;
+        color: #fff;
+        border: none;
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: -40px;
+      }
+      .newsemail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+        font-size: 20px;
+        background-color: white;
+        width: 500px;
+        height: 50px;
+      }
+      .newsbutton {
+        background-color: red;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height: 50px;
+      }
+      .Our-award{
+        margin-top:32%;
+    }
+      .wel-bg img {
+        .wel-bg img {
+          display:none
+          }
+      }
+      .cour-heading{
+        font-size: 45px;
+        letter-spacing: 4px;
+        line-height: 50px;
+        font-weight: bold;
+        color: #fff;
+        height: 100px
+      }
+      .slider-btn{
+        height: 45px;
+      }
+}
